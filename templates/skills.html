@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}Skills{% endblock title %}
+ 
+{% block body %} 
+<div class="container my-4">
+    <div class="card bg-dark text-white">
+        <img src="/static/21.webp" height="550" width="550" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Technical Strength
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Python</a>
+                  <a class="dropdown-item" href="#">Data-science</a>
+                  <a class="dropdown-item" href="#">Data-preprocessing</a>
+                  <a class="dropdown-item" href="#">Data-visualization</a>
+                  <a class="dropdown-item" href="#">Django</a>
+                  <a class="dropdown-item" href="#">Data-structures</a>
+                  <a class="dropdown-item" href="#">Bootstrapping</a>
+                </div>
+
+                
+              </div>
+              <div class="dropdown my-4">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">
+                  soft skills
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Communication</a>
+                  <a class="dropdown-item" href="#">Problem-solving</a>
+                  <a class="dropdown-item" href="#">Agility</a>
+                  <a class="dropdown-item" href="#">Time-Management</a>
+                  <a class="dropdown-item" href="#">Eye for details</a>
+                  <a class="dropdown-item" href="#">Team-Work</a>
+                  
+                </div>
+        </div>
+      </div>
+</div>
+{% endblock body %}
